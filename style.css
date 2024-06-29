@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    padding : 0;
+    margin:0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px , 100vw);
+    height:90vh;
+    position:relative
+}
+
+.main .box{
+    height : 90vh;
+    width : 100%;
+    opacity : 0.69;
+    position: absolute;
+    top : 0;
+    background-color: black;;
+    color: white;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75vw;
+    margin: auto;
+    height:100px;
+    position: relative;
+    z-index: 10;
+}
+.text{
+    height: 84%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: larger;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    gap : 23px;
+    padding: 0 23px;
+    text-align: center;
+}
+
+.text > :first-child{
+    font-weight:bolder;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+}
+
+.text > :nth-child(2){
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.text > :nth-child(3){
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.btn{
+    padding : 8px 15px ;
+    font-weight: 200 ;
+    background-color: white;
+    cursor:pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color:white;
+    padding : 9px 24px;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+input{
+    color:white;
+    padding :15px 85px 15px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: rgba(23,23,23,0.5);
+}
+
+.input-buttons{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:16px;
+    margin-bottom: 40px;
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    font-weight: 200;
+    border-radius: 8px;
+    padding: 7px 20px;;
+}
+
+.btn-lang{
+    background-color: rgba(23,23,23,0.7);
+    color: white;}
+
+section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70vw;
+    margin:auto;
+    color:white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.secimg{
+    position : relative;
+
+}
+.secimg img{
+    width:30vw;
+    position:relative;
+    z-index: 10;;
+}
+
+.secimg video{
+    position:absolute;
+    right:0;
+    top:51px;
+    width:30vw;
+}
+
+.third .secimg video{
+    top : 40px;
+    width : 20vw;
+    right:100px;
+}
+
+section.first > div{
+    display:flex;
+    flex-direction: column;
+}
+
+.first div > :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first div > :nth-child(2){
+    font-size:19px;
+    font-weight: 100;
+}
+
+.separation{
+    height:4.5px;
+    width : 100%;
+    background-color: grey;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+
+ .footer{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color : white; 
+    max-width : 40vw;
+    padding : 15px 0px 100px 0px;
+    column-gap : 185px;
+    font-size: 15px;
+    margin-left: 70px;
+ }
+
+ .footer-item{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+
+ }
+
+ .footer-item a {
+    color: white;
+    white-space: nowrap;
+ }
+
+ footer .question{
+    color: white;
+    padding-left: 70px;
+    padding-top : 70px;
+    padding-bottom: 70;
+    text-decoration: underline;
+ }
+
+.text-final{
+    color : white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+
+
